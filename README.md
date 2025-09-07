@@ -1,6 +1,11 @@
 # emul
 An x86_64 emulator with the goal of booting up Arch Linux live-boot environment.
 
+## Prerequisites
+- C++20
+- [CMake](https://github.com/Kitware/CMake)
+- [capstone](https://github.com/capstone-engine/capstone)
+
 ## Building
 ```bash
 mkdir build && cd build
