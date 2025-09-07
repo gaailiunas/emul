@@ -7,6 +7,7 @@ find_package(capstone REQUIRED)
 
 add_executable(emul
     src/main.cpp
+    src/emul.cpp
 )
 
 target_link_libraries(emul capstone::capstone_static)
